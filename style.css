@@ -1,12 +1,9 @@
-head
-{
-    icon: 'images/favicon.ico';
-}
+
 body
 {
-    margin:0px; 
-    padding:0px;
-    border:0px;
+    margin:0vw; 
+    padding:0vw;
+    border:0vw;
 }
 
 
@@ -14,34 +11,35 @@ body
 
 #logo
 {
-    margin-left:15px; 
-    padding-top:5px; 
+    margin-left: 1vw;
+    padding-top: 0.9vw;
     display: inline;
-    width:5%; 
-    height:55px;
+    width: 3vw;
+    height: 4vw;
 }
 
 #logoName
 {
-    display:inline; 
-    font-size:20px; 
-    padding-top:18px; 
-    margin-left:10px; 
-    font-family:Arial Narrow;
+    display: inline;
+    font-size: 2vw;
+    padding-top: 2vw;
+    margin-left: 1vw;
+    font-family: Arial Narrow;
 }
+
 .header
 {
-    background-color:black;
-    color:white; 
-    
-    font-size:25px; 
+    background-color: black;
+    color: white;
+    font-size: 2vw;
 }
 
 header ul
 {
-    margin-top:0px;
-    margin-bottom:0px;
-    margin-left:105px;
+    margin-top: 0vw;
+    margin-bottom: 0vw;
+    margin-left: 10.6vw;
+
 }
 header ul li
 {
@@ -54,7 +52,7 @@ header ul li
 .header li
 {
     text-decoration:none;
-    padding:15px 25px 15px 25px;
+    padding:2vw 2vw 2vw 2vw;
 }
 .header li:hover 
 {
@@ -78,61 +76,57 @@ header ul li
  .container
  {
     
-    display:flex;
-    
-}  
-
-
-
-#leftChild p
-{
-    font-size:20px;
-    color:white;
+    display: flex;
+    min-height: 31vw;
 }
+    
+
+
 
 #leftChild
 {
-    width:27%;
-    min-height:330px; 
-    background-color:black; 
-    color:darkgrey;
-    padding:15px 0px 0px 0%;
+    width: 27vw;
+    background-color: black;
+    color: darkgrey;
+    padding: 1vw 0vw 0vw 0%;
 }
 
 #rightChild
 {
-    width:69%; 
-    min-height:330px;  
-    color:black;
+    width: 73vw;
+    color: black;
 }
+
 #tableTitle
 {
-    margin-left:22px;
+    margin-left:1.5vw;
+    font-size: 2vw;
+    color: white;
 }
 
 ol
 {
     color:white;
+    font-size:1.5vw;
 }
 
 
 /*this for the footer tag style */
 .footer
 {
-    height:110px; 
-    background-color:rgb(189, 6, 6); 
-    color:black; 
-    margin:0px; 
-    font-size:18px; 
-    font-family:cursive;
+    height: 11vw;
+    background-color: rgb(189, 6, 6);
+    color: black;
+    margin: 0vw;
+    font-size: 2vw;
 }
 
 .footer ul
 {
-    padding-left:50px; 
-    padding-top:2px; 
-    display:inline-block;
-    list-style:none;
+    padding-left: 5vw;
+    padding-top: 0vw;
+    display: inline-block;
+    list-style: none;
 }
 
  .footer a
@@ -147,7 +141,7 @@ ol
 
  .footer a:visited
  {
-     color:rgb(252, 252, 252);
+     color:black;
  }
 
  .footer a:hover
@@ -157,7 +151,7 @@ ol
 
  .footer p
  {
-    padding-bottom:0px; 
-    padding-left:300px;
+    padding-bottom: 0vw;
+    padding-left: 40vw;
  }
 
