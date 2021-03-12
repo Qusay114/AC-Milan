@@ -1,3 +1,7 @@
+head
+{
+    icon: 'images/favicon.ico';
+}
 body
 {
     margin:0px; 
@@ -7,7 +11,17 @@ body
 
 
 /* this for header tag style */
-.logoName
+
+#logo
+{
+    margin-left:15px; 
+    padding-top:5px; 
+    display: inline;
+    width:5%; 
+    height:55px;
+}
+
+#logoName
 {
     display:inline; 
     font-size:20px; 
@@ -19,28 +33,39 @@ body
 {
     background-color:black;
     color:white; 
-    padding-bottom:1px;
-    padding-top:0px;
+    
     font-size:25px; 
 }
 
-.header a
+header ul
+{
+    margin-top:0px;
+    margin-bottom:0px;
+    margin-left:105px;
+}
+header ul li
+{
+    display: inline;
+    float:left;
+    
+    
+}
+
+.header li
 {
     text-decoration:none;
-    padding-left:50px;
-    padding-right:50px;
-    padding-bottom:15px;
-    padding-top:15px;
+    padding:15px 25px 15px 25px;
 }
-.header a:hover 
+.header li:hover 
 {
     background-color:red;
+    cursor: pointer;
 
  }
 
- .header a:link
+ .header a
  {
-    color:white;
+    text-decoration: none;
  }
 
  .header a:visited
@@ -59,13 +84,13 @@ body
 
 
 
-.leftChild p
+#leftChild p
 {
     font-size:20px;
     color:white;
 }
 
-.container .leftChild
+#leftChild
 {
     width:27%;
     min-height:330px; 
@@ -74,13 +99,13 @@ body
     padding:15px 0px 0px 0%;
 }
 
-.container .rightChild
+#rightChild
 {
     width:69%; 
     min-height:330px;  
-    color:darkgrey;
+    color:black;
 }
-.container .title
+#tableTitle
 {
     margin-left:22px;
 }
@@ -107,6 +132,7 @@ ol
     padding-left:50px; 
     padding-top:2px; 
     display:inline-block;
+    list-style:none;
 }
 
  .footer a
